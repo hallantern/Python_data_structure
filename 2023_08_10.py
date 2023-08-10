@@ -30,7 +30,32 @@ arr.insert(i, val)
 print(arr)
 
 
+# change更改元素
+def change(nums, i, val):
+    if 0 <= i <= len(nums) - 1:
+        nums[i] = val
+        
+arr = [0, 5, 2, 3, 7, 1, 6]
+i, val = 2, 4
+change(arr, i, val)
+print(arr)
 
+# pop删除
+arr = [0, 5, 2, 3, 7, 1, 6]
+arr.pop()
+print(arr)
+
+# pop指定删除
+arr = [0, 5, 2, 3, 7, 1, 6]
+i = 3
+arr.pop(i)
+print(arr)
+
+# remove删除指定元素
+arr = [0, 5, 2, 3, 7, 1, 6]
+i = 3
+arr.remove(5)
+print(arr)
 
 
 
