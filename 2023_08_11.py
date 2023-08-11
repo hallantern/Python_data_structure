@@ -1,3 +1,4 @@
+# 冒泡排序（小到大）
 class Solution:
   def bubbleSort(self, arr):
         # 第 i 趟排序
@@ -12,4 +13,8 @@ class Solution:
 
     def sortArray(self, nums: List[int]) -> List[int]:
         return self.bubbleSort(nums)
+
+# 选择排序（小到大）
+
+
 
