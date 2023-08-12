@@ -1,6 +1,6 @@
 from typing import List
 
-
+# 二分查找
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         left, right = 0, len(nums) - 1
@@ -14,6 +14,8 @@ class Solution:
             else:
                 right = mid - 1
         return -1
+
+#双指针求和
 class Solution1:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         left = 0
